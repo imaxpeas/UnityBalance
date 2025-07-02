@@ -37,7 +37,7 @@ public class player : MonoBehaviour
           groundLayer
         );
 
-        rb.drag = isGrounded ? groundDrag : airDrag;
+        rb.linearDamping = isGrounded ? groundDrag : airDrag;
 
     }
     private void FixedUpdate()
