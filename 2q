@@ -1,0 +1,114 @@
+HomeWork 2 Undone UnityBalance3D
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   Assets/Animations/ANIM_Door1.anim
+#	renamed:    Assets/platform-builder-pro.meta -> Assets/Animations/ANIM_Door1.anim.meta
+#	new file:   Assets/Animations/door1.controller
+#	renamed:    Assets/platform-builder-pro/StrategyMeta.meta -> Assets/Animations/door1.controller.meta
+#	renamed:    Assets/Animations/PhysicMaterials.meta -> Assets/PhysicMaterials.meta
+#	renamed:    Assets/Animations/PhysicMaterials/PM_Player.physicMaterial -> Assets/PhysicMaterials/PM_Player.physicMaterial
+#	renamed:    Assets/Animations/PhysicMaterials/PM_Player.physicMaterial.meta -> Assets/PhysicMaterials/PM_Player.physicMaterial.meta
+#	renamed:    Assets/Animations/PhysicMaterials/PM_batut.physicMaterial -> Assets/PhysicMaterials/PM_batut.physicMaterial
+#	renamed:    Assets/Animations/PhysicMaterials/PM_batut.physicMaterial.meta -> Assets/PhysicMaterials/PM_batut.physicMaterial.meta
+#	modified:   Assets/Scenes/1.unity
+#	deleted:    Assets/platform-builder-pro/Demo.meta
+#	deleted:    Assets/platform-builder-pro/Demo/materials.meta
+#	deleted:    Assets/platform-builder-pro/Demo/materials/blue.mat
+#	deleted:    Assets/platform-builder-pro/Demo/materials/blue.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/materials/dark_blue.mat
+#	deleted:    Assets/platform-builder-pro/Demo/materials/dark_blue.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/materials/green.mat
+#	deleted:    Assets/platform-builder-pro/Demo/materials/green.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/PlatformMat.mat
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/PlatformMat.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/Platform_2Mat.mat
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/Platform_2Mat.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/Platform_3Mat.mat
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/Platform_3Mat.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/Platform_4Mat.mat
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Materials/Platform_4Mat.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform.obj
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform.obj.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform_2.obj
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform_2.obj.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform_3.obj
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform_3.obj.meta
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform_4.obj
+#	deleted:    Assets/platform-builder-pro/Demo/meshes/Platform_4.obj.meta
+#	deleted:    Assets/platform-builder-pro/Demo/models.meta
+#	deleted:    Assets/platform-builder-pro/Demo/models/Ball.fbx
+#	deleted:    Assets/platform-builder-pro/Demo/models/Ball.fbx.meta
+#	deleted:    Assets/platform-builder-pro/Demo/models/Materials.meta
+#	deleted:    Assets/platform-builder-pro/Demo/models/Materials/RollerBallWhite.mat
+#	deleted:    Assets/platform-builder-pro/Demo/models/Materials/RollerBallWhite.mat.meta
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs.meta
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Ball.prefab
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Ball.prefab.meta
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform.prefab
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform.prefab.meta
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform_2.prefab
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform_2.prefab.meta
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform_3.prefab
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform_3.prefab.meta
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform_4.prefab
+#	deleted:    Assets/platform-builder-pro/Demo/prefabs/Platform_4.prefab.meta
+#	deleted:    Assets/platform-builder-pro/Demo/scenes.meta
+#	deleted:    Assets/platform-builder-pro/Demo/scenes/demo.unity
+#	deleted:    Assets/platform-builder-pro/Demo/scenes/demo.unity.meta
+#	deleted:    Assets/platform-builder-pro/Demo/scenes/demoSettings.lighting
+#	deleted:    Assets/platform-builder-pro/Demo/scenes/demoSettings.lighting.meta
+#	deleted:    Assets/platform-builder-pro/Demo/scripts.meta
+#	deleted:    Assets/platform-builder-pro/Demo/scripts/Ball.cs
+#	deleted:    Assets/platform-builder-pro/Demo/scripts/Ball.cs.meta
+#	deleted:    Assets/platform-builder-pro/Demo/scripts/FollowTransform.cs
+#	deleted:    Assets/platform-builder-pro/Demo/scripts/FollowTransform.cs.meta
+#	deleted:    Assets/platform-builder-pro/Demo/scripts/Restart.cs
+#	deleted:    Assets/platform-builder-pro/Demo/scripts/Restart.cs.meta
+#	deleted:    Assets/platform-builder-pro/Documentation.pdf
+#	deleted:    Assets/platform-builder-pro/Documentation.pdf.meta
+#	deleted:    Assets/platform-builder-pro/Editor.meta
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformBuilderWindow.cs
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformBuilderWindow.cs.meta
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformEditor.cs
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformEditor.cs.meta
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformPointEditor.cs
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformPointEditor.cs.meta
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformSectionEditor.cs
+#	deleted:    Assets/platform-builder-pro/Editor/PlatformSectionEditor.cs.meta
+#	deleted:    Assets/platform-builder-pro/Platform.cs
+#	deleted:    Assets/platform-builder-pro/Platform.cs.meta
+#	deleted:    Assets/platform-builder-pro/PlatformBuilder.cs
+#	deleted:    Assets/platform-builder-pro/PlatformBuilder.cs.meta
+#	deleted:    Assets/platform-builder-pro/PlatformBuilderCore.cs
+#	deleted:    Assets/platform-builder-pro/PlatformBuilderCore.cs.meta
+#	deleted:    Assets/platform-builder-pro/PlatformBuilderStrategy.cs
+#	deleted:    Assets/platform-builder-pro/PlatformBuilderStrategy.cs.meta
+#	deleted:    Assets/platform-builder-pro/PlatformHelper.cs
+#	deleted:    Assets/platform-builder-pro/PlatformHelper.cs.meta
+#	deleted:    Assets/platform-builder-pro/PlatformPoint.cs
+#	deleted:    Assets/platform-builder-pro/PlatformPoint.cs.meta
+#	deleted:    Assets/platform-builder-pro/PlatformSection.cs
+#	deleted:    Assets/platform-builder-pro/PlatformSection.cs.meta
+#	deleted:    Assets/platform-builder-pro/PointChild.cs
+#	deleted:    Assets/platform-builder-pro/PointChild.cs.meta
+#	deleted:    Assets/platform-builder-pro/README.md
+#	deleted:    Assets/platform-builder-pro/README.md.meta
+#	deleted:    Assets/platform-builder-pro/README.txt
+#	deleted:    Assets/platform-builder-pro/README.txt.meta
+#	deleted:    Assets/platform-builder-pro/Strategies.meta
+#	deleted:    Assets/platform-builder-pro/Strategies/ExportMesh.meta
+#	deleted:    Assets/platform-builder-pro/Strategies/ExportMesh/ExportMeshStrategy.cs
+#	deleted:    Assets/platform-builder-pro/Strategies/ExportMesh/ExportMeshStrategy.cs.meta
+#	deleted:    Assets/platform-builder-pro/StrategyMeta/Procedural.meta
+#	deleted:    Assets/platform-builder-pro/StrategyMeta/Procedural/art.png
+#	deleted:    Assets/platform-builder-pro/StrategyMeta/Procedural/art.png.meta
+#	new file:   Assets/scripts/Door1.cs
+#	new file:   Assets/scripts/Door1.cs.meta
+#
