@@ -3,7 +3,7 @@ using UnityEngine;
 public class PauseGame : MonoBehaviour
 {
     private bool isPaused = false;
-
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -14,9 +14,7 @@ public class PauseGame : MonoBehaviour
 
     void TogglePause()
     {
-        isPaused = !isPaused;
-
-        if (isPaused)
+        if (!isPaused)
         {
             Time.timeScale = 0f;
             AudioListener.pause = true;
