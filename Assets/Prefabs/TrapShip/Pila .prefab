@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7956341747862919862}
   - component: {fileID: 2293226166965824292}
   - component: {fileID: 5018577546402647256}
+  - component: {fileID: 2466532996923098982}
   m_Layer: 0
   m_Name: Prism
   m_TagString: Untagged
@@ -315,6 +316,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2466532996923098982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482259587543321089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f66956158e7a514d865700c4001fe6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2214506383352203559
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +340,7 @@ GameObject:
   - component: {fileID: 8237128988327593072}
   - component: {fileID: 8871874702787452754}
   - component: {fileID: 288724995406098542}
+  - component: {fileID: 8212234275557691690}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -425,6 +439,18 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &8212234275557691690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2214506383352203559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f66956158e7a514d865700c4001fe6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6065559770529394028
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +522,7 @@ GameObject:
   - component: {fileID: 4855128423607639324}
   - component: {fileID: 5235276876912858695}
   - component: {fileID: 3575045614931544025}
+  - component: {fileID: 223023364946882440}
   m_Layer: 0
   m_Name: Prism
   m_TagString: Untagged
@@ -797,3 +824,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &223023364946882440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6712951676458244273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f66956158e7a514d865700c4001fe6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

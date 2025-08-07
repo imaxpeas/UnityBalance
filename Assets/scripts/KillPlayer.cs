@@ -4,6 +4,9 @@ public class KillPlayer : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        SceneController.RestartLevel();
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            SceneController.RestartLevel();
+        }
     }
 }
